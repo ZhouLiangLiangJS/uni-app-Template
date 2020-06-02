@@ -1,0 +1,53 @@
+
+.hader-box{
+	width: 100%;
+	height: 168rpx;
+	background: #F53D4A;
+}
+.hader-box-back{
+	width: 40rpx;
+	height: 40rpx;
+	margin-top: 70rpx;
+	margin-left: 20rpx;
+}
+.hader-box-text{
+	color: white;
+	margin-left: 240rpx;
+}
+.main-content{
+	width: 100%;
+	height: 400rpx;
+	margin-top: 50rpx;
+}
+.inpent-box-inp{
+	float: left;
+	font-size: 30rpx;
+}
+.inpent-box{
+	margin-top: 60rpx;
+	width: 80%;
+	border-bottom: 1px solid #C9C9C9;
+	margin-left: 80rpx;
+}
+.inpent-box-text{
+	float: right;
+	font-size: 30rpx;
+	color: #F53D4A;
+}
+.inpent-box-img{
+	float: right;
+	width: 40rpx;
+	height: 40rpx;
+}
+.exit-btn{
+	width: 90%;
+	height: 70rpx;
+	background: #F53D4A;
+	font-weight: 300;
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 70rpx;
+	border-radius: 8px;
+	margin-top: 350rpx;
+}
+

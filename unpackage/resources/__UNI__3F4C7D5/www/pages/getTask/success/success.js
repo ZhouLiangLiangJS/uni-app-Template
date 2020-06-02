@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"success{ width: ",[0,540],"; height: ",[0,450],"; margin-left: ",[0,-80],"; margin-top: ",[0,60],"; }\n.",[1],"hader-box{ width: 100%; height: ",[0,168],"; line-height: ",[0,200],"; background: #F53D4A; text-align: center; color: #fff; }\n",],undefined,{path:"./pages/getTask/success/success.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/getTask/success/success.wxml') } }));

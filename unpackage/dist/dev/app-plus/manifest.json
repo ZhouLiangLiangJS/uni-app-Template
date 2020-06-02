@@ -1,0 +1,208 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__39197CA",
+  "name": "老铁乐",
+  "version": {
+    "name": "1.0.0",
+    "code": "100"
+  },
+  "description": "老铁乐在手  装修您无忧",
+  "launch_path": "__uniappview.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "Maps": {
+      "coordType": "gcj02"
+    },
+    "OAuth": {},
+    "Speech": {},
+    "Contacts": {},
+    "VideoPlayer": {},
+    "Payment": {},
+    "Share": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": false,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview",
+      "uni-app": "auto"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "light",
+      "background": "#F53D4A"
+    },
+    "usingComponents": true,
+    "nvueCompiler": "uni-app",
+    "distribute": {
+      "splashscreen": {
+        "android": {
+          "hdpi": "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-11/老铁乐启动图/480 762.png",
+          "xhdpi": "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-11/老铁乐启动图/720 1242.png",
+          "xxhdpi": "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-11/老铁乐启动图/1080 1882.png"
+        }
+      },
+      "icons": {
+        "android": {
+          "hdpi": "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-12/安卓各尺寸启动图标/72.png",
+          "xhdpi": "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-12/安卓各尺寸启动图标/96.png",
+          "xxhdpi": "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-12/安卓各尺寸启动图标/144.png",
+          "xxxhdpi": "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-12/安卓各尺寸启动图标/192.png"
+        },
+        "ios": {
+          "appstore": "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-12/安卓各尺寸启动图标/192.png"
+        }
+      },
+      "google": {
+        "permissions": [
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ]
+      },
+      "apple": {},
+      "plugins": {
+        "maps": {
+          "amap": {
+            "appkey_ios": "e00abbddc347a7877f3150fcdd730f97",
+            "appkey_android": "e00abbddc347a7877f3150fcdd730f97"
+          }
+        },
+        "payment": {
+          "weixin": {
+            "appid": "wxefd70a01f79ab8a9",
+            "UniversalLinks": ""
+          },
+          "alipay": {},
+          "appleiap": {}
+        },
+        "oauth": {
+          "weixin": {
+            "appid": "wxefd70a01f79ab8a9",
+            "appsecret": "wxefd70a01f79ab8a9",
+            "UniversalLinks": ""
+          }
+        },
+        "share": {
+          "weixin": {
+            "appid": "wxefd70a01f79ab8a9"
+          },
+          "qq": {
+            "appid": "123"
+          }
+        },
+        "speech": {
+          "ifly": {}
+        },
+        "push": {},
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#FFFFFF",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "compilerVersion": "2.3.7",
+      "control": "v8",
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      }
+    },
+    "tabBar": {
+      "color": "#808080",
+      "selectedColor": "#F53D4A",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "static/zzzzzzzzzzzzzzzz/index.png",
+          "selectedIconPath": "static/zzzzzzzzzzzzzzzz/index_selected.png"
+        },
+        {
+          "pagePath": "pages/post/post",
+          "text": "头条",
+          "iconPath": "static/zzzzzzzzzzzzzzzz/ft.png",
+          "selectedIconPath": "static/zzzzzzzzzzzzzzzz/ft_selected.png"
+        },
+        {
+          "pagePath": "pages/getTask/getTask",
+          "text": "工人抢单",
+          "iconPath": "static/zzzzzzzzzzzzzzzz/qd.png",
+          "selectedIconPath": "static/zzzzzzzzzzzzzzzz/qd.png"
+        },
+        {
+          "pagePath": "pages/shopping/shopping",
+          "text": "购物车",
+          "iconPath": "static/zzzzzzzzzzzzzzzz/gouwuche@2x.png",
+          "selectedIconPath": "static/zzzzzzzzzzzzzzzz/biaoqiangouwuche@2x.png"
+        },
+        {
+          "pagePath": "pages/mes/mes",
+          "text": "我的",
+          "iconPath": "static/zzzzzzzzzzzzzzzz/me.png",
+          "selectedIconPath": "static/zzzzzzzzzzzzzzzz/we_selected.png"
+        }
+      ],
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "height": "50px",
+      "child": [
+        "lauchwebview"
+      ],
+      "selected": 0
+    }
+  }
+}

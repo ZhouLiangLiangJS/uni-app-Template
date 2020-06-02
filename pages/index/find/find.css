@@ -1,0 +1,89 @@
+.phcolor{
+	color: #fff;
+}
+
+.hader-box{
+		width: 100%;
+		height: 168upx;
+		background: #F53D4A;
+	}
+	
+	.hader-box-back{
+		width: 40upx;
+		height: 40upx;
+		margin-top: 70upx;
+		margin-left: 20upx;
+		float: left;
+	}
+	
+	.top-nav-right{
+		margin-left: 30upx;
+		width: 610upx;
+		height: 60upx;
+		border-bottom: 1px solid #fff;
+		float: left;
+		margin-top: 64upx;
+	}
+	
+	.top-find-leftic{width: 38upx;height: 38upx;margin-top: 10upx;float: left;}
+	
+	
+	.hinput{
+		margin-top: 6upx;
+		font-size: 30upx;
+		color: #fff;
+		font-weight: 300;
+		padding-left: 10px;
+	}
+	
+	.hot-find-box{
+		margin-top: 40upx;
+		width: 100%;
+		height: 340upx;
+		padding: 8upx;
+		word-break: break-all;
+		word-wrap: break-word;
+	}
+	
+	.hot-find-box-title{
+		margin-left: 40upx;
+		font-size: 30upx;
+	}
+	
+	.hot-find-con-gruop{
+		margin-top: 16upx;
+	}
+	.hot-find-con-gruop>text{
+		font-size: 25upx;
+		margin-left: 70upx;
+		background: #f0f0f0;
+		border-radius: 10px;
+		padding: 10upx;
+		color: #808080;
+	}
+	
+	
+.history-find-box{
+	width: 100%;
+	padding: 8upx;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.history-find-title{
+	width: 100%;
+	height: auto;
+}
+
+.history-find-title-left{
+	margin-left: 40upx;
+	font-size: 30upx;
+	 float: left;
+}
+
+.history-find-title-right{
+	margin-right: 60upx;
+	font-size: 30upx;
+	color: #808080;
+	 float: right;
+}

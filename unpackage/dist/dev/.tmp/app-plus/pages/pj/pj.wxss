@@ -1,0 +1,138 @@
+
+page{
+	background: #F1F1F1;
+}
+.send-img{
+	width: 225rpx;
+	height: 225rpx;
+	background: #eaeaea;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.send-img-image{
+	width: 140rpx;
+	height: 120rpx;
+}
+.send-img-text{
+	color: #808080;
+	font-size: 30rpx;
+}
+.show-sel-img{
+	width: 225rpx;
+	height: 225rpx;
+	float: left;
+}
+.show-sel-img>image{
+	width: 100%;
+	height: 100%;
+}
+.hader-box{
+	width: 100%;
+	height: 168rpx;
+	background: #F53D4A;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.hader-box-back{
+	width: 40rpx;
+	height: 40rpx;
+	margin-top: 75rpx;
+	margin-left: 20rpx;
+}
+.hader-box-text{
+	color: white;
+	margin-left: 280rpx;
+}
+.info1{
+	width: 90%;
+	margin: 230rpx 5% 0 5%;
+}
+.info1-title{
+	color: #A4A4A4;
+	font-size: 30rpx;
+	margin-bottom: 10rpx;
+}
+.info1-inp{
+	width: 90%;
+    height: 300rpx;
+	background: #fff;
+	font-size: 30rpx;
+	padding: 20rpx 5%;
+	letter-spacing: 1px;
+}
+.info1-inp>textarea{
+	width: 100%;
+	height: 100%;
+}
+.info2{
+	width: 90%;
+	height: 180rpx;
+	padding: 20rpx;
+	margin: 36rpx auto 0;
+}
+.info2-icon{
+	width: auto;
+	height: 40rpx;
+	background: #fff;
+	color: #A4A4A4;
+	font-size: 30rpx;
+	border-radius: 6px;
+	letter-spacing: 1px;
+	line-height: 40rpx;
+	text-align: center;
+	padding: 4px;
+	float: left;
+	margin-left: 50rpx;
+	margin-top: 30rpx;
+}
+.info3{
+	width: 90%;
+	background: #fff;
+	font-size: 30rpx;
+	letter-spacing: 1px;
+	margin: 20rpx 5%;
+}
+.star-group{
+	width: 100%;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.star-group-show>image{
+	margin-left: 40rpx;
+	width: 36rpx;
+	height: 36rpx;
+}
+.exit-btn{
+	width: 90%;
+	height: 70rpx;
+	background: #F53D4A;
+	font-weight: 300;
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 70rpx;
+	border-radius: 8px;
+	margin-top: 80rpx;
+	margin-bottom: 80rpx;
+}
+.zhaoPian{
+	width: 675rpx;
+	margin: 0 auto;
+}
+

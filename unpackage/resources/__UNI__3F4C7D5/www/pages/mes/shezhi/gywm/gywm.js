@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"bg{ width: 100%; height: 100vh; -webkit-filter: blur(5px); filter: blur(5px); }\n",],undefined,{path:"./pages/mes/shezhi/gywm/gywm.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/mes/shezhi/gywm/gywm.wxml') } }));

@@ -1,0 +1,116 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index/index",
+    "pages/mes/jine/tixian/tixian",
+    "pages/shopping/gm/gm",
+    "pages/index/goShopping/liJiGouMai/liJiGoMai",
+    "pages/wxlogin/wxlogin",
+    "pages/mes/jine/chongzhi/chongzhi",
+    "pages/mes/jine/jine",
+    "pages/index/goShopping/goShopping",
+    "pages/index/find/findEnd/findEnd",
+    "pages/mes/shangjiaruzhu/info/info",
+    "pages/mes/fatie/fatie",
+    "pages/mes/shangjiaruzhu/shangpin/shangpin",
+    "pages/post/post",
+    "pages/mes/shezhi/gywm/gywm",
+    "pages/post/mytf/myft",
+    "pages/post/pingJia/pingJia",
+    "pages/mes/geRenPingJia/geRenPingJia",
+    "pages/mes/gongdan/daipinglun/daipinglun",
+    "pages/pj/pj",
+    "pages/index/dianPu/dianPu",
+    "pages/mes/gongdan/XiangQing/XiangQing",
+    "pages/mes/gongdan/zhaogongzhong/xiugai/xiuGai",
+    "pages/index/guanggao/guanggao",
+    "pages/mes/shangjiaruzhu/shangjiaruzhu",
+    "pages/mes/shezhi/zhaq/zhaq",
+    "pages/mes/mes",
+    "pages/mes/dizhi/dizhi",
+    "pages/mes/dizhi/tjdizhi/tjdizhi",
+    "pages/mes/shezhi/info/xgdizhi/adddizhi/adddizhi",
+    "pages/mes/gongdan/yiwancheng/yiwancheng",
+    "pages/mes/gongdan/jinxingzhong/jinxingzhong",
+    "pages/mes/gongdan/yiqiangdan/yiqiangdan",
+    "pages/mes/gongdan/yijieshu/yijieshu",
+    "pages/mes/gongdan/daifukuan/daifukuan",
+    "pages/mes/gongdan/shigongzhong/shigongzhong",
+    "pages/mes/gongdan/daiyanshou/daiyanshou",
+    "pages/mes/gongdan/zhaogongzhong/zhaogongzhong",
+    "pages/mes/tuiguang/tuiguang",
+    "pages/getTask/getTask",
+    "pages/login/logon/logon",
+    "pages/mes/shezhi/info/info",
+    "pages/index/find/find",
+    "pages/index/building/building",
+    "pages/tools/tools",
+    "pages/index/decoration/decoration",
+    "pages/index/furniture/furniture",
+    "pages/index/textile/textile",
+    "pages/index/join/join",
+    "pages/index/more/more",
+    "pages/mes/shenfen/shenfen",
+    "pages/mes/shezhi/shezhi",
+    "pages/mes/shezhi/info/xgnicheng/xgnicheng",
+    "pages/mes/shezhi/info/xgdizhi/xgdizhi",
+    "pages/mes/tuiguang/team/team",
+    "pages/mes/gongdan/gongdan",
+    "pages/mes/gongdan/yijiesuan/yijiesuan",
+    "pages/mes/shezhi/info/xgtel/xgtel",
+    "pages/mes/huiyuan/huiyuan",
+    "pages/shopping/shopping"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#F53D4A",
+    "backgroundColor": "#F53D4A",
+    "navigationStyle": "custom",
+    "titleNView": false
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#F53D4A",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/zzzzzzzzzzzzzzzz/index.png",
+        "selectedIconPath": "static/zzzzzzzzzzzzzzzz/index_selected.png"
+      },
+      {
+        "pagePath": "pages/post/post",
+        "text": "头条",
+        "iconPath": "static/zzzzzzzzzzzzzzzz/ft.png",
+        "selectedIconPath": "static/zzzzzzzzzzzzzzzz/ft_selected.png"
+      },
+      {
+        "pagePath": "pages/getTask/getTask",
+        "text": "工人抢单",
+        "iconPath": "static/zzzzzzzzzzzzzzzz/qd.png",
+        "selectedIconPath": "static/zzzzzzzzzzzzzzzz/qd.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物车",
+        "iconPath": "static/zzzzzzzzzzzzzzzz/gouwuche@2x.png",
+        "selectedIconPath": "static/zzzzzzzzzzzzzzzz/biaoqiangouwuche@2x.png"
+      },
+      {
+        "pagePath": "pages/mes/mes",
+        "text": "我的",
+        "iconPath": "static/zzzzzzzzzzzzzzzz/me.png",
+        "selectedIconPath": "static/zzzzzzzzzzzzzzzz/we_selected.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "老铁乐",
+  "compilerVersion": "2.3.7",
+  "usingComponents": {}
+}

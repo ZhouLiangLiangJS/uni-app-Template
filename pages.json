@@ -1,0 +1,434 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/pb/pb",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/login/index/index",
+			"style": {
+				 
+			}
+		},
+		{
+			"path": "pages/mes/jine/tixian/tixian",
+			"style": {
+				 
+			}
+		},
+		{
+			"path": "pages/shopping/gm/gm",
+			"style": {
+				 
+			}
+		},
+		{
+			"path": "pages/index/goShopping/liJiGouMai/liJiGoMai",
+			"style": {
+				 
+			}
+		},
+		{
+			"path": "pages/wxlogin/wxlogin",
+			"style": {
+				 
+			}
+		},
+		{
+			"path": "pages/mes/jine/chongzhi/chongzhi",
+			"style": {
+				 
+			}
+		},
+		{
+			"path": "pages/mes/jine/jine",
+			"style": {
+				 
+			}
+		},
+		{
+			"path": "pages/index/goShopping/goShopping",
+			"style": {
+				 
+			}
+		},
+		{
+			"path": "pages/index/find/findEnd/findEnd",
+			"style": {
+				 
+			}
+		},
+		{
+			"path": "pages/mes/shangjiaruzhu/info/info",
+			"style": {
+				
+			}
+		},
+		
+		
+		
+		{
+			"path": "pages/mes/fatie/fatie",
+			"style": {
+				
+			}
+		},
+		
+		{
+			"path": "pages/mes/shangjiaruzhu/shangpin/shangpin",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/post/post",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh": true,  
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+			"path": "pages/mes/shezhi/gywm/gywm",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/post/mytf/myft",
+			"style": {
+				
+			}
+		},
+		
+		{
+			"path":"pages/post/pingJia/pingJia",
+			"style":{
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh": true,  
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+			"path":"pages/mes/geRenPingJia/geRenPingJia",
+			"style":{
+				
+			}
+		},
+		
+		{
+			"path": "pages/mes/gongdan/daipinglun/daipinglun",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/pj/pj",
+			"style": {
+				
+			}
+		},
+		
+		{
+			"path": "pages/index/dianPu/dianPu",
+			"style": {
+				 
+			}
+		},
+		{
+			"path": "pages/mes/gongdan/XiangQing/XiangQing",
+			"style": {
+				 
+			}
+		},
+		{
+			"path": "pages/mes/gongdan/zhaogongzhong/xiugai/xiuGai",
+			"style": {
+				 
+			}
+		},
+		
+		{
+			"path": "pages/index/guanggao/guanggao",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/shangjiaruzhu/shangjiaruzhu",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/shezhi/zhaq/zhaq",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/mes",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/dizhi/dizhi",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/dizhi/tjdizhi/tjdizhi",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/shezhi/info/xgdizhi/adddizhi/adddizhi",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/gongdan/yiwancheng/yiwancheng",
+			"style": {
+			   
+			}
+		},
+		{
+			"path": "pages/mes/gongdan/jinxingzhong/jinxingzhong",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/gongdan/yiqiangdan/yiqiangdan",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/gongdan/yijieshu/yijieshu",
+			"style": {
+				
+			}
+		},
+		
+		{
+			"path": "pages/mes/gongdan/daifukuan/daifukuan",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/gongdan/shigongzhong/shigongzhong",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/gongdan/daiyanshou/daiyanshou",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/gongdan/zhaogongzhong/zhaogongzhong",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/tuiguang/tuiguang",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/getTask/getTask",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh": true,  
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+			"path": "pages/login/logon/logon",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/shezhi/info/info",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/index/find/find",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/index/building/building",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/tools/tools",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/index/decoration/decoration",
+			"style": {
+				
+			}
+		},
+		
+		{
+			"path": "pages/index/furniture/furniture",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/index/textile/textile",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/index/join/join",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/index/more/more",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/shenfen/shenfen",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/shezhi/shezhi",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/shezhi/info/xgnicheng/xgnicheng",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/shezhi/info/xgdizhi/xgdizhi",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/tuiguang/team/team",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/gongdan/gongdan",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/gongdan/yijiesuan/yijiesuan",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/shezhi/info/xgtel/xgtel",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/mes/huiyuan/huiyuan",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/shopping/shopping",
+			"style": {
+				
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#F53D4A",
+		"backgroundColor": "#F53D4A",
+		"app-plus" : {
+		  "titleNView" : false	
+		 },
+		 "navigationStyle" : "custom"
+	},
+	
+	"tabBar": {
+		"color": "#808080",
+		    "selectedColor": "#F53D4A",
+		    "list": [
+		      {
+		        "pagePath": "pages/index/index",
+		        "text": "首页",
+		        "iconPath": "static/zzzzzzzzzzzzzzzz/index.png",
+		        "selectedIconPath": "static/zzzzzzzzzzzzzzzz/index_selected.png"
+		      },
+			  {
+			    "pagePath": "pages/post/post",
+			    "text": "头条",
+			    "iconPath": "static/zzzzzzzzzzzzzzzz/ft.png",
+			    "selectedIconPath": "static/zzzzzzzzzzzzzzzz/ft_selected.png"
+			  },
+			  {
+			    "pagePath": "pages/getTask/getTask",
+			    "text": "工人抢单",
+			    "iconPath": "static/zzzzzzzzzzzzzzzz/qd.png",
+			    "selectedIconPath": "static/zzzzzzzzzzzzzzzz/qd.png"
+			  },
+			  {
+			    "pagePath": "pages/shopping/shopping",
+			    "text": "购物车",
+			    "iconPath": "static/zzzzzzzzzzzzzzzz/gouwuche@2x.png",
+			    "selectedIconPath": "static/zzzzzzzzzzzzzzzz/biaoqiangouwuche@2x.png"
+			  },
+		      {
+		        "pagePath": "pages/mes/mes",
+		        "text": "我的",
+		        "iconPath": "static/zzzzzzzzzzzzzzzz/me.png",
+		        "selectedIconPath": "static/zzzzzzzzzzzzzzzz/we_selected.png"
+		      }
+			  
+		    ]
+	}
+}

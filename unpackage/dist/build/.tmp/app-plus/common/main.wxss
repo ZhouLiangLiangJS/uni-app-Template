@@ -1,0 +1,6 @@
+
+page,text,view{
+	font-family: PingFang-SC-Medium;
+}
+/*每个页面公共css */
+

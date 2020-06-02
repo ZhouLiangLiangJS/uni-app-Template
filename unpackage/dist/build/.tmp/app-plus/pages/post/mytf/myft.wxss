@@ -1,0 +1,88 @@
+
+.zuo{
+	position: absolute;
+	left: 20rpx;
+	top: 75rpx;
+	width: 40rpx;
+}
+.hader-box{
+	width: 100%;
+	height: 168rpx;
+	line-height: 200rpx;
+	background: #F53D4A;
+	text-align: center;
+	color: #fff;
+}
+.post-person-box{
+    width: 100%;
+	height: 260rpx;
+	margin-top: 20rpx;
+	padding: 20rpx;
+}
+.post-person-text{
+	margin-left: 40rpx;
+	float: left;
+	font-size: 30rpx;
+}
+.post-person-inp{
+	color: #808080;
+	font-size: 30rpx;
+	float: left;
+}
+.post-person-send{
+	font-size: 35rpx;
+	border-radius: 20rpx;
+	padding: 4rpx 18rpx;
+	background: #F53D4A;
+	color: white;
+	float: right;
+	margin-right: 30rpx;
+}
+.opy{
+	opacity: 0.6;
+}
+.no-opy{
+	opacity: 1;
+}
+.send-img{
+	width: 220rpx;
+	height: 204rpx;
+	background: #eaeaea;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.send-img-image{
+	width: 140rpx;
+	height: 120rpx;
+}
+.send-img-text{
+	color: #808080;
+	font-size: 35rpx;
+}
+.show-sel-img{
+	width: 220rpx;
+	height: 204rpx;
+	margin-right: 20rpx;
+	margin-bottom: 20rpx;
+	float: left;
+}
+.show-sel-img>image{
+	width: 100%;
+	height: 100%;
+}
+

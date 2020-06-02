@@ -1,0 +1,57 @@
+
+.hader-box{
+		width: 100%;
+		height: 168rpx;
+		background: #F53D4A;
+}
+.hader-box-back{
+		width: 40rpx;
+		height: 40rpx;
+		margin-top: 70rpx;
+		margin-left: 20rpx;
+}
+.hader-box-text{
+		color: white;
+		margin-left: 260rpx;
+}
+.main-content-box{
+	margin-top: 20rpx;
+	width: 100%;
+	height: auto;
+	padding: 20rpx;
+}
+.fect-group{
+	margin-top: 50rpx;
+	width: 100%;
+	height: 50rpx;
+}
+.fect-group-left>text{
+	 margin-top: 10rpx;
+	font-size: 30rpx;
+	margin-left: 12rpx;
+	letter-spacing: 1px;
+	float: left;
+}
+.fect-group-left{
+	float: left;
+	margin-left: 20rpx;
+}
+.fect-group-right{
+	margin-top: 12rpx;
+	float: right;
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 50rpx;
+}
+.exit-btn{
+	width: 90%;
+	height: 70rpx;
+	background: #F53D4A;
+	font-weight: 300;
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 70rpx;
+	border-radius: 8px;
+	margin-top: 300rpx;
+}
+

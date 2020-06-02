@@ -1,0 +1,2 @@
+setCssToHead(["body{ background: #F1F1F1; }\n.",[1],"send-yzcode{ width: 100%; height: auto; background: #fff; border: 1px solid #000; }\n",],undefined,{path:"./pages/tools/tools.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/tools/tools.wxml') } }));

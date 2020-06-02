@@ -1,0 +1,34 @@
+
+.hader-box{
+	width: 100%;
+	height: 168rpx;
+	background: #F53D4A;
+}
+.hader-box-back{
+	width: 40rpx;
+	height: 40rpx;
+	margin-top: 70rpx;
+	margin-left: 20rpx;
+}
+.hader-box-text{
+	color: white;
+	margin-left: 260rpx;
+}
+.tel-content{
+	letter-spacing: 1px;
+	font-size: 14px;
+	margin-top: 60rpx;
+	margin-left: 40rpx;
+}
+.exit-btn{
+	width: 90%;
+	height: 70rpx;
+	background: #F53D4A;
+	font-weight: 300;
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 70rpx;
+	border-radius: 8px;
+	margin-top: 260rpx;
+}
+

@@ -1,0 +1,617 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 头部购物车标题 */
+.header_div{
+	width: 100%;
+	height: 168rpx;
+	line-height: 190rpx;
+	background: #F53D4A;
+	text-align: center;
+	color: #fff;
+	z-index: 10;
+	position: fixed;
+	top: 0;
+}
+/* 头部购物车标题结束 */
+/* 编辑 */
+.bianJi{
+	padding: 20rpx 4% 0 0;
+	margin-top: 168rpx;
+	height: 50rpx;
+}
+.bianJiNeiRong{
+	color: #000000;
+	font-size: 30rpx;
+	float: right;
+}
+/* 编辑结束 */
+/* 购物车列表 */
+.main_div_view{
+	width: 93%;
+	padding:0 0 0 5%;
+	height: 200rpx;
+	margin-bottom: 50rpx;
+}
+.main_div_left{
+	float: left;
+	height: 100%;
+	position: relative;
+	width: 40%;
+}
+.main_div_left text{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	display: inline-block;
+	width: 35rpx;
+	height: 35rpx;
+	border: 1px solid #7F7F7F;
+	border-radius: 100%;
+}
+.dianJi{
+	background: url(https://api.laotiele.com:9527/image/static/zzzzzzzzzzzzzzzz/juXing.png);
+	background-size: 100% 100%;
+	border: 0 !important;
+}
+.main_div_left image{
+	border-radius: 10rpx;
+	width: 200rpx;
+	height: 100%;
+	margin-left: 60rpx;
+}
+.main_div_right{
+	float: right;
+	width: 60%;
+	height: 100%;
+	position: relative;
+}
+.main_div_right .main_div_right_top{
+	position: absolute;
+	color: #4F4F4F;
+	font-size: 30rpx;
+	top:20rpx;
+	left: 0;
+}
+.main_div_right .main_div_right_bottom{
+	position: absolute;
+	color: red;
+	font-size: 30rpx;
+	bottom:20rpx;
+	left: 0;
+}
+.main_div_right_right{
+	position: absolute;
+	bottom:20rpx;
+	right: 4%;
+}
+.main_div_right_right button{
+	float: left;
+	width: 40rpx;
+	height: 40rpx;
+	background-color: #F1F1F1;
+	line-height: 40rpx;
+	color: #757575;
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+}
+.main_div_right_right button:after{
+	border: 0;
+}
+.red{
+	color: #F53D4A !important;
+}
+.main_div_right_right text{
+	display:block;
+	float: left;
+	width: 40rpx;
+	height: 40rpx;
+	text-align: center;
+	line-height: 40rpx;
+	font-size: 30rpx;
+}
+/* 购物车列表结束 */
+/* 相关推荐 */
+.tuiJian{
+	width: 92%;
+	padding: 0 4%;
+	margin-bottom: 100rpx;
+	overflow: hidden;
+}
+.tuiJian_title{
+	color: #000000;
+	width: 100%;
+	font-size: 30rpx;
+	height: 60rpx;
+}
+.tuiJian_div{
+	float: left;
+	width: 47%;
+	height: 480rpx;
+	border-radius: 10rpx;
+	-webkit-box-shadow: -1px 1px 5px #aaa;
+	        box-shadow: -1px 1px 5px #aaa;
+	overflow: hidden;
+	margin-bottom: 40rpx;
+}
+.tuiJian_div:nth-child(even){
+	margin-right: 6%;
+}
+.tuiJian_div .tuiJian_div_img{
+	width: 100%;
+	height: 66%;
+}
+.tuiJian_div .tuiJian_div_img>image{
+	width: 100%;
+	height: 100%;
+}
+.tuiJian_div_top{
+	height: 14%;
+	position: relative;
+	padding: 0 10rpx;
+}
+.tuiJian_div_top text{
+	overflow:hidden; 
+	-o-text-overflow:ellipsis; 
+	   text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2; 
+	position: absolute;
+	font-size: 27rpx;
+	color: #000;
+}
+.tuiJian_div_bottom{
+	height: 20%;
+	font-size: 30rpx;
+	position: relative;
+	padding: 0 10rpx;
+}
+.tuiJian_div_bottom text{
+	position: absolute;
+}
+.tuiJian_div_bottom .tuiJian_div_bottom_jiaGe{
+	color: #F53D4A;
+	bottom: 5rpx;
+}
+.tuiJian_div_bottom .tuiJian_div_bottom_fuKuan{
+	top: 10rpx;
+	font-size: 23rpx;
+	color: #808080;
+}
+.tuiJian_div_bottom image{
+	position: absolute;
+	bottom: 0;
+	right: 10rpx;
+	width:60rpx;
+	height: 60rpx;
+}
+/* 相关推荐结束 */
+/* 底部结算 */
+.JieSuan{
+	background-color: #fff;
+	-webkit-box-shadow: -1px 1px 5px #CCCCCC;
+	        box-shadow: -1px 1px 5px #CCCCCC;
+	position: fixed;
+	bottom: 0;
+	height: 100rpx;
+	width: 100%;
+	z-index: 10;
+}
+.JieSuan>.qunxuan{
+	position: absolute;
+	left: 5%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.qunxuan>text:nth-child(1){
+	display: inline-block;
+	width: 35rpx;
+	height: 35rpx;
+	border: 1px solid #7F7F7FFF;
+	border-radius: 100%;
+}
+.qunxuan>text:nth-child(2){
+	position: relative;
+	color: #000000;
+	font-size: 30rpx;
+	margin-left: 30rpx;
+	top: -4rpx;
+}
+.JieSuan>.heji{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	-ms-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+	left: 50%;
+	font-size: 27rpx;
+}
+.JieSuan_heJi{
+	color:#F53D4A;
+}
+.JieSuan>button{
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	background-color: #F53D4A;
+	color: #fff;
+	font-size: 30rpx;
+	padding: 0;
+	width: 140rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	border-radius: 20rpx;
+	text-align: center;
+}
+/* 底部结算结束 */
+

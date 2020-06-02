@@ -1,0 +1,1 @@
+.bg{position:fixed;top:0;width:100%;height:100vh}.hader-box{width:100%;height:168rpx;background:#f53d4a;position:fixed;top:0;z-index:10}.hader-box-back{width:40rpx;height:40rpx;margin-top:75rpx;margin-left:20rpx}.hader-box-text{color:#fff;margin-left:240rpx}.main-box{z-index:9;position:absolute;top:200rpx;width:100%;font-size:30rpx}

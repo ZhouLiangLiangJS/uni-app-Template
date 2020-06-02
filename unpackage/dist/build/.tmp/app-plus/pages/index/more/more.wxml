@@ -1,0 +1,1 @@
+<view><view class="hader-box"><image class="hader-box-back" src="https://api.laotiele.com:9527/image/static/zuo.png" data-event-opts="{{[['tap',[['back',['$event']]]]]}}" bindtap="__e"></image><text class="hader-box-text">{{name}}</text></view></view>

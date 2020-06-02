@@ -1,0 +1,11 @@
+page{
+	background: #F1F1F1;
+}
+
+      /* 发送验证码 */
+.send-yzcode{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	border: 1px solid #000;
+}

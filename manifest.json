@@ -1,0 +1,151 @@
+{
+    "name" : "老铁乐",
+    "appid" : "__UNI__39197CA",
+    "description" : "老铁乐在手  装修您无忧",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueCompiler" : "uni-app",
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : false,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        /* 模块配置 */
+        "modules" : {
+            "Maps" : {},
+            "OAuth" : {},
+            "Speech" : {},
+            "Contacts" : {},
+            "VideoPlayer" : {},
+            "Payment" : {},
+            "Share" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            /* ios打包配置 */
+            "ios" : {},
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "e00abbddc347a7877f3150fcdd730f97",
+                        "appkey_android" : "e00abbddc347a7877f3150fcdd730f97"
+                    }
+                },
+                "payment" : {
+                    "weixin" : {
+                        "appid" : "wxefd70a01f79ab8a9",
+                        "UniversalLinks" : ""
+                    },
+                    "alipay" : {},
+                    "appleiap" : {}
+                },
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wxefd70a01f79ab8a9",
+                        "appsecret" : "wxefd70a01f79ab8a9",
+                        "UniversalLinks" : ""
+                    }
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wxefd70a01f79ab8a9"
+                    },
+                    "qq" : {
+                        "appid" : "123"
+                    }
+                },
+                "speech" : {
+                    "ifly" : {}
+                },
+                "push" : {}
+            },
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-11/老铁乐启动图/480 762.png",
+                    "xhdpi" : "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-11/老铁乐启动图/720 1242.png",
+                    "xxhdpi" : "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-11/老铁乐启动图/1080 1882.png"
+                }
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-12/安卓各尺寸启动图标/72.png",
+                    "xhdpi" : "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-12/安卓各尺寸启动图标/96.png",
+                    "xxhdpi" : "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-12/安卓各尺寸启动图标/144.png",
+                    "xxxhdpi" : "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-12/安卓各尺寸启动图标/192.png"
+                },
+                "ios" : {
+                    "appstore" : "C:/Users/86157/Documents/WeChat Files/www1104117485/FileStorage/File/2019-12/安卓各尺寸启动图标/192.png"
+                }
+            }
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "wxefd70a01f79ab8a9",
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : true,
+            "minified" : true,
+            "postcss" : true
+        },
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "\"你的位置信息将用于小程序位置接口的效果展示\""
+            }
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "h5" : {
+        "sdkConfigs" : {
+            "maps" : {}
+        }
+    }
+}
